@@ -1,0 +1,20 @@
+.loader,
+.progress {
+    width: 368px;
+    height: 38px;
+    background:  #00422357;
+    border-radius: 99999px;
+}
+
+.progress {
+    width: 0;
+    height: 38px;
+    background #00ffd7;
+    animation: 10s progress
+linear infinite;
+}
+@keyframes progress { 
+    to {
+        width: 360px;
+    }
+}
